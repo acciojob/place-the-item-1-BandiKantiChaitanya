@@ -1,2 +1,24 @@
+.holder{
+	display:flex;
+	justify-content:space-between;
+}
+.item1,
+.item2,
+.item3{
+	height:100px;
+	width:100px;
+	font-size:60px;
+}
+.item1{
+	order: 1;
+	background-color:red;
+}
 
-/* Your CSS Code here. */
+.item2{
+	order: 1;
+	background-color:blue;
+}
+.item3{
+	order: 0;
+	background-color:green;
+}
